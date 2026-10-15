@@ -1,11 +1,22 @@
+import SearchForm from "./search-form";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Bible Vector Search</h1>
-      <p>
-        Send a POST request to <code>/search</code> with a JSON body containing
-        <code> query</code> and an optional <code>k</code> value.
-      </p>
+    <main className="page-shell">
+      <section className="hero" aria-labelledby="page-title">
+        <p className="eyebrow">KJV · semantic passage search</p>
+        <h1 id="page-title">Search by meaning, not just words.</h1>
+        <p className="intro">
+          Describe an idea or enter a remembered phrase. The search compares
+          your query with passage embeddings stored in Qdrant.
+        </p>
+      </section>
+
+      <SearchForm />
+
+      <footer>
+        Five-verse passages · one-verse overlap · OpenAI embeddings · Qdrant
+      </footer>
     </main>
   );
 }

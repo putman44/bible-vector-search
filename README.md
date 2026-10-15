@@ -30,7 +30,8 @@ Install dependencies:
 npm install
 ```
 
-Create your local environment file and add your OpenAI API key:
+Create your local environment file and add your OpenAI API key. If your key is
+provided through an OpenAI-compatible proxy, also set `OPENAI_BASE_URL`:
 
 ```bash
 cp .env.example .env
