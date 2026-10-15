@@ -1,3 +1,4 @@
+// scripts/bible/audit.ts
 /**
  * Chunk auditor: structural quality metrics for a chunks .jsonl file.
  * No search engine needed — these are properties you can measure the

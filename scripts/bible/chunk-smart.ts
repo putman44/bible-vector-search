@@ -1,3 +1,4 @@
+// scripts/bible/chunk-smart.ts
 /**
  * Structure-aware Bible chunking: five complete verses per chunk with one
  * overlapping verse, constrained to a single chapter and carrying reference

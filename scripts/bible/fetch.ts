@@ -1,3 +1,4 @@
+// scripts/bible/fetch.ts
 /**
  * Fetch the King James Bible plain text from Project Gutenberg into
  * data/bible/kjv.txt — the corpus for the chunking homework.

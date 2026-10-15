@@ -1,3 +1,4 @@
+// scripts/bible/store-qdrant.ts
 /**
  * Embed the structure-aware Bible chunks and store them in local Qdrant.
  *
