@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.env
+.env*.local
+data/bible/
+qdrant_storage/
+.DS_Store
+npm-debug.log*
